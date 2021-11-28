@@ -4,7 +4,7 @@ import "./Navbar.css";
 function NavBar() {
   return (
     <div className="navbar__container navbar navbar-light px-2">
-      <a className="navbar-brand navbar__logo text-danger" href="#">
+      <a className="navbar-brand navbar__logo text-danger" href="/">
         Trade Ninja
       </a>
       <ul className="nav">
@@ -19,7 +19,9 @@ function NavBar() {
           </a>
         </li>
         <li className="nav-item ">
-          <div className="btn btn-danger">Get App</div>
+          <a href="/get-app" className="btn btn-danger">
+            Get App
+          </a>
         </li>
       </ul>
     </div>

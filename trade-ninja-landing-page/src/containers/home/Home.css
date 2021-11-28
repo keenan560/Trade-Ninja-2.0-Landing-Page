@@ -52,12 +52,18 @@
 .accordion {
   max-width: 900px;
 }
-.accordion-header > button {
-  background-color: #242424 !important;
+
+.accordion-item {
+  background-color: #000;
   color: #fff;
-  text-decoration: none !important;
 }
-.accordion-body {
-  background-color: #242424 !important;
+
+.accordion-button {
+  background-color: #242424;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #242424;
   color: #fff;
 }
