@@ -1,0 +1,10 @@
+.navbar__container {
+  background-color: #000 !important;
+}
+
+.navbar__logo {
+  font-size: 32px;
+}
+.nav-link {
+  color: #fff !important;
+}
