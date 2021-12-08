@@ -17,6 +17,7 @@ function GetApp() {
             variant="outlined"
             startIcon={<AppleIcon />}
             size="large"
+            className= 'getApp__storeButtons'
           >
             Download on the App Store
           </Button>
@@ -25,6 +26,7 @@ function GetApp() {
             variant="outlined"
             startIcon={<GoogleIcon />}
             size="large"
+            className= 'getApp__storeButtons'
           >
             Get it on Google Play
           </Button>

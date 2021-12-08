@@ -6,7 +6,7 @@ import NavBar from "./components/navBar/NavBar";
 import GetApp from "./containers/getApp/GetApp";
 function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />

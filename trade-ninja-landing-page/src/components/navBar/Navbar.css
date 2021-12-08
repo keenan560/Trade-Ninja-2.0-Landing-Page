@@ -8,3 +8,18 @@
 .nav-link {
   color: #fff !important;
 }
+
+.modal-content {
+  background-color: #242424;
+}
+
+.modal-header {
+  color: #fff !important;
+}
+.modal-body {
+  color: #fff !important;
+}
+
+.btn-close {
+  background-color: #fff;
+}

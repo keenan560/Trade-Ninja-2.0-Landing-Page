@@ -18,3 +18,12 @@
 Button {
   margin: 20px !important;
 }
+
+.getApp__storeButtons {
+  width: 320px;
+}
+
+.getApp__storeButtons:hover {
+  color: #fff;
+  border: 1px solid #fff !important;
+}

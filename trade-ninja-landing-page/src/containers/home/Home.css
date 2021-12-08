@@ -67,3 +67,7 @@
   background-color: #242424;
   color: #fff;
 }
+
+.accordion-button:focus {
+  border: 1px solid #fff !important;
+}
