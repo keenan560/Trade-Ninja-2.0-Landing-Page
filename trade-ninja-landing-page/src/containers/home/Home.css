@@ -71,3 +71,221 @@
 .accordion-button:focus {
   border: 1px solid #fff !important;
 }
+
+/* media queries */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .home_container {
+    display: block;
+  }
+
+  .home__banner__container {
+    padding: 10px;
+    display: block;
+  }
+
+  .home__banner {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: auto !important;
+    opacity: 1;
+    flex: unset;
+    max-width: unset !important;
+    min-width: unset !important;
+    width: auto !important;
+  }
+
+  .home__banner__title {
+    font-size: 18px;
+    text-align: center;
+  }
+  .home__start {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 10px solid #1a1a1a !important;
+    margin-bottom: 75px;
+  }
+
+  .home__start__img {
+    height: auto !important;
+    opacity: 1;
+    flex: 0.4;
+    max-width: unset !important;
+    min-width: unset !important;
+    width: 177.5px !important;
+  }
+
+  .home__start__text {
+    color: #fff;
+    flex: 0.5;
+  }
+
+  .home__start__text > h1,
+  h3 {
+    font-size: 18px !important;
+  }
+  .home__faqs__container {
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .home__faqs__title {
+    font-size: 18px;
+  }
+  .accordion-button,
+  .collapsed {
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home_container {
+    display: block;
+  }
+
+  .home__banner__container {
+    padding: 10px;
+    display: block;
+  }
+
+  .home__banner {
+    margin-left: 55px !important;
+    height: auto !important;
+    opacity: 1;
+    flex: unset;
+    max-width: unset !important;
+    min-width: unset !important;
+    width: 160.5px !important;
+    text-align: center !important;
+  }
+
+  .home__banner__title {
+    font-size: 18px;
+    text-align: center;
+  }
+  .home__start {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 10px solid #1a1a1a !important;
+    margin-bottom: 75px;
+  }
+
+  .home__start__img {
+    height: auto !important;
+    opacity: 1;
+    flex: 0.4;
+    max-width: unset !important;
+    min-width: unset !important;
+    width: 155.5px !important;
+  }
+
+  .home__start__text {
+    color: #fff;
+    flex: 0.5;
+  }
+
+  .home__start__text > h1,
+  h3 {
+    font-size: 18px !important;
+  }
+  .home__faqs__container {
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .home__faqs__title {
+    font-size: 18px;
+  }
+  .accordion-button,
+  .collapsed {
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+/* iPad 1, 2, Mini and Air */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .home_container {
+    display: block;
+  }
+
+  .home__banner__container {
+    padding: 10px;
+    display: block;
+  }
+
+  .home__banner {
+    margin-left: 200px !important;
+    height: auto !important;
+    opacity: 1;
+    flex: 1;
+    width: 297.59px !important;
+  }
+
+  .home__banner__title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .home__start {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 10px solid #1a1a1a !important;
+    margin-bottom: 75px;
+  }
+
+  .home__start__img {
+    height: auto !important;
+    opacity: 1;
+    flex: 0.4;
+    max-width: unset !important;
+    min-width: unset !important;
+    width: 177.5px !important;
+  }
+
+  .home__start__text {
+    color: #fff;
+    flex: 0.5;
+  }
+
+  .home__start__text > h1,
+  h3 {
+    font-size: 24px !important;
+  }
+  .home__faqs__container {
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .home__faqs__title {
+    font-size: 24px;
+  }
+  .accordion-button,
+  .collapsed {
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+}
